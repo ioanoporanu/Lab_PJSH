@@ -2,6 +2,7 @@ package com.luxoft.bankapp.service;
 
 import com.luxoft.bankapp.model.Client;
 import com.luxoft.bankapp.service.storage.ClientRepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Map;
