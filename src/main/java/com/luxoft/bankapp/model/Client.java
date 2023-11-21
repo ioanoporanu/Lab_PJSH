@@ -22,6 +22,10 @@ public class Client {
 
     private ClientRepository repository;
 
+    public void setAccounts(List<AbstractAccount> accounts) {
+        this.accounts = accounts;
+    }
+
     public Client() {
     }
 
